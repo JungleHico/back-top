@@ -1,7 +1,7 @@
 <template>
     <div class="page">
         <h1 class="header">BackTop  返回顶部组件</h1>
-        <back-top></back-top>
+        <back-top :delay="1000"></back-top>
     </div>
 </template>
 

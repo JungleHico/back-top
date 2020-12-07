@@ -94,7 +94,7 @@ export default {
         handleBackTop() {
             const stepTime = 10
             const steps = this.delay / stepTime
-            const stepDistance = steps === 0 ? document.documentElement.scrollTop / stepDistance : document.documentElement.scrollTop
+            const stepDistance = steps === 0 ? document.documentElement.scrollTop : document.documentElement.scrollTop / steps
             const timer = setInterval(() => {
                 const scrollTop = document.documentElement.scrollTop
                 if (scrollTop <= 0) {
